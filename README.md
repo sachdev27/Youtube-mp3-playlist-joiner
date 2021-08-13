@@ -1,8 +1,5 @@
 # INSTRUCTIONS
 
-- First Enter into Virtual Environment present into 
-    (LINK TO PLAYLIST FOLDER)
-- COMMAND :  source bin/activate
 
 ## Install All the Required library using
 - pip install -r requirements.txt
