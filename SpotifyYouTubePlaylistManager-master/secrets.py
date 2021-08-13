@@ -1,0 +1,4 @@
+# Make sure to fill in your spotify client_secret information
+# Update this from time to time, it expires very soon
+spotify_token = "BQD0FryFm8q_g3_HUeYP1TyrAeDiB7jJmozujVYxjK1L8HR54HdghpISNe3J41z0EY8gVa-wPzk8K1etE0Np7B6CUEo19iq45d1FA8WSdXMBZzZGxUfIx2qOdl6FPSezsO-zFGp1OM6PnzmEvzVP9k3BJeFvkfQeu1eVYSrNUmrQs4Pg1TYWaTn8T6ASktSzhHRKGvwGx4DSe27LIO2IJB20zvU3E0WecuEkX87ePTnZ2APPxEMTkTqtPicwn9WR0j4O2F8Wat4uOUznMMw8RReJRC1UfxIZhDZSephaVDFl"
+spotify_user_id = "4ubaro8mudqrmw5tw13qoxi2a"
