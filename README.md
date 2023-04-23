@@ -1,52 +1,60 @@
-# INSTRUCTIONS
+# Project Description
 
+This project is a set of Python scripts that can be used to download music from Spotify and YouTube and then join them together into a single MP3 file. The following instructions will guide you through the installation process and how to use each of the scripts.
 
-## Install All the Required library using
-- pip install -r requirements.txt
+Installation
 
-## 1. Spotify Downloader
+To install the required libraries, run the following command in your terminal:
 
-- Command to run python file : python3 <Filename.py>
-- - Command : python3 spotify_Downloader.py
+```python
+pip install -r requirements.txt
+```
 
+This will install all the necessary libraries for the project.
 
-## 2. Youtube MP3 Downloader
+Spotify Downloader
 
-- Command to run python file : python3 <Filename.py>
-- - Command : python3 youtube_audio_downloader.py
+To use the Spotify Downloader, run the following command in your terminal:
 
-## 3. MP3 JOINER
+```python
+python3 spotify_Downloader.py
+```
 
-- Command to run python file : python3 <Filename.py>
-- - Command : python3 mp3_Joiner.py
+This script requires a Spotify Client ID and Secret Key to work. If you have not done this before, you can follow these steps:
 
-### *Requisite
-- Enter Path Location (Realtive / Absolute)
+Go to [Spotify Dev](https://developer.spotify.com/dashboard/applications)
+Sign in and create an app (if you don't have one already)
+Copy the Client ID and Secret Key from inside the app
+For Linux users, you can export these credentials using the following commands in your terminal:
 
+```bash
+export SPOTIPY_CLIENT_ID='Your Spotify Client Id'
+export SPOTIPY_CLIENT_SECRET='Your Spotify Secret key'
+```
+> Please do not share your credentials with anyone.
 
-#
-# Spotify
+Youtube MP3 Downloader
 
-For spotify to download the songs 
-we have to export the lincences to the system
+To use the YouTube MP3 Downloader, run the following command in your terminal:
 
-For Linux :
-this can be done by using commands in terminal
+```python
+python3 youtube_audio_downloader.py
+```
 
-- export SPOTIPY_CLIENT_ID='Your Spotify Client Id'
-- export SPOTIPY_CLIENT_SECRET='Your Spotify Secret key'
+This script will prompt you to enter the YouTube URL for the video you want to download. Once the download is complete, the audio will be automatically converted to MP3 format.
 
+MP3 Joiner
 
-## If you have not done this before, Follow the steps :
+To use the MP3 Joiner, run the following command in your terminal:
 
-1. Go to this link 
-https://developer.spotify.com/dashboard/applications
+```python3
+python3 mp3_Joiner.py
+```
 
-2. Sign In and Create an App (if don't have)
+This script will prompt you to enter the file paths for the MP3 files you want to join together. You can enter either relative or absolute paths.
 
-3. After that get inside the app and copy the Client Id and Secret key
+Please note that the MP3 Joiner script requires the ffmpeg library to be installed on your system.
 
-## Please Don't disclose the key with anyone
+Conclusion
 
-
-
+This project provides a convenient way to download and join music from Spotify and YouTube. By following these instructions, you should be able to use each of the scripts to download and combine your favorite tracks into a single MP3 file.
